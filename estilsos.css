@@ -49,6 +49,7 @@ body{
     width: 100% ;
 }
 .btn-general{
+    display: flex;
     margin-top: 15px;
     background-color: #FFD814;
     height: 31px;
@@ -58,10 +59,14 @@ body{
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
     outline: 0;
-    width: 318px;
+    width: 100%;
     text-transform: capitalize;
     box-shadow: 0px 0px 25px -9px rgba(0,0,0,0.33);
-    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 .btn-general:hover{
     background-color: #F7CA00;
@@ -102,4 +107,19 @@ box-shadow: 0px 0px 25px -9px rgba(0,0,0,0.33);
 }
 .vinculos-container>a{
     font-size: 13px;
+}
+.separados{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.separados>h3{
+    margin: 0;
+    margin-top: 1rem;
+}
+.footer{
+    margin-top: 3rem;
+}
+.invisible-conatiner{    
+    width: 350px;
 }
